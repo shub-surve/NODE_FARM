@@ -1,0 +1,57 @@
+[
+    {
+        "id": 1,
+        "productName": "HP Pavilion 15",
+        "image": "https://m.media-amazon.com/images/S/aplus-media/vc/779be7f4-dbad-458a-bc30-f793cd214059.jpg",
+        "brand": "HP",
+        "category": "electronics",
+        "description": "A powerful and versatile laptop for everyday use. Features a 15.6-inch Full HD display, 11th Gen Intel Core i5 processor, 8GB of RAM, and 256GB SSD storage. Ideal for students, professionals, and anyone who needs a reliable laptop for work, browsing, and entertainment.",
+        "price": 799.99,
+        "stock": 10
+      },
+      {
+        "id": 2,
+        "productName": "Apple Watch Series 8",
+        "image": "path/to/image.jpg",
+        "brand": "Apple",
+        "category": "electronics",
+        "description": "The latest smartwatch from Apple. Features a larger display, improved health sensors, and new watch faces. Helps you stay connected, monitor your fitness, and manage your health.",
+        "price": 429.00,
+        "stock": 12
+      },
+      {
+        "id": 3,
+        "productName": "Sony WH-1000XM5",
+        "image": "path/to/image.jpg",
+        "brand": "Sony",
+        "category": "electronics",
+        "description": "Industry-leading noise cancelling headphones that provide exceptional audio quality and a comfortable listening experience. Perfect for blocking out distractions while traveling, working, or simply relaxing.",
+        "price": 399.99,
+        "stock": 7
+      },
+      {
+        "id": 4,
+        "productName": "Babolat Drive Max 110 Tennis Racket",
+        "image": "path/to/image.jpg",
+        "brand": "Babolat",
+        "category": "sports",
+        "description": "An oversized tennis racket for beginner and intermediate players. Provides a larger sweet spot for more forgiving shots and increased power. Perfect for recreational players who want to improve their game.",
+        "price": 149.99,
+        "stock": 5
+      },
+      {
+        "id": 5,
+        "productName": "Ticket to Ride",
+        "image": "path/to/image.jpg",
+        "brand": "Days of Wonder",
+        "category": "games",
+        "description": "A popular strategic board game for 2-5 players. Players collect sets of colored train cars to claim railway routes across the United States. A fun and engaging game for families and friends.",
+        "price": 49.99,
+        "stock": 30
+      }
+      
+      
+      
+      
+      
+]

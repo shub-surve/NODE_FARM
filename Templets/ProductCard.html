@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title></title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(to bottom right, #333, #fff);
+            
+        }
+
+        .product-container {
+            box-sizing: border-box;
+  width: 250px;
+  height: 500px;
+  background: rgba(217, 217, 217, 0.58);
+  border: 1px solid white;
+  box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+  backdrop-filter: blur(6px);
+  border-radius: 17px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  font-weight: bolder;
+  color: black;
+            margin: 10px;
+        }
+
+        .product-card {
+            font-weight: 400;
+            color: white;
+            display: block;
+            text-align: center;
+            font-size: 0.72em;
+            margin: 1em;
+        }
+
+        .product-card:hover {
+            border: 1px solid black;
+  transform: scale(1.05);
+        }
+
+        .product-image {
+            margin-top: 1em;
+            display: flex;
+            justify-content: center;
+            gap: 1em;
+        }
+
+        .product-info {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .product-name {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .product-brand {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+            color: #666;
+        }
+
+        .product-category {
+            font-size: 1rem;
+            margin-bottom: 20px;
+            color: #999;
+        }
+
+        .product-description {
+            font-weight: 400;
+  color: white;
+  display: block;
+  text-align: center;
+  font-size: 0.72em;
+  margin: 1em;
+        }
+
+        .product-price-stock {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        .product-price {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-bottom: 0;
+            color: #4caf50;
+        }
+
+        .product-stock {
+            font-size: 1rem;
+            color: #333;
+        }
+
+        .details-button {
+
+            padding: 0.8em 1.7em;
+            display: block;
+            margin: auto;
+            border-radius: 25px;
+            border: none;
+            font-weight: bold;
+            background: #ffffff;
+            color: rgb(0, 0, 0);
+            transition: .4s ease-in-out;
+        }
+
+        .details-button:hover {
+            background: red;
+            color: white;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="product-container">
+        <!-- <img class="product-image" url="{$IMAGE}" alt="HP Pavilion 15"> -->
+       
+
+        <div class="product-info">
+            <h2 class="product-name">{%PRODUCTNAME%}</h2>
+            <p class="product-brand">{%BRANDNAME%}</p>
+            <p class="product-category">{%CATEGORY%}</p>
+            <p class="product-description">
+                {%DESCRIPTION%}
+            </p>
+            <div class="product-price-stock">
+                <p class="product-price">RS{%PRICE%}</p>
+                <p class="product-stock">In stock:{%STOCK%}</p>
+            </div>
+            <a class="details-button" href="/product?id={%ID%}">Details</a> <!-- Link to another page -->
+        </div>
+    </div>
+</body>
+
+</html>
